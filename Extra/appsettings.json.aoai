@@ -1,0 +1,9 @@
+{
+  "endpointType": "chat-completion",
+  "serviceType": "AzureOpenAI",
+  "serviceId": "gpt-35-turbo",
+  "deploymentOrModelId": "gpt-35-turbo",
+  "endpoint": "https://ai-playground-resource.openai.azure.com/",
+  "apiKey": "fa06ffa821ca4e9dbd19a85ab0436355",
+  "LogLevel": 0
+}

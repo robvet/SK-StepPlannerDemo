@@ -1,0 +1,26 @@
+{
+  "kernel": {
+    "serviceType": "AzureOpenAI",
+    "serviceId": "gpt-3.5-turbo",
+    "deploymentOrModelId": "gpt-3.5-turbo",
+    "endpoint": "https://ai-playground-resource.openai.azure.com/",
+    "orgId": ""
+  },
+  "aiPlugin": {
+    "schemaVersion": "v1",
+    "nameForModel": "MyPlugin",
+    "nameForHuman": "My Plugin",
+    "descriptionForModel": "Used to perform math operations (i.e., add, subtract, multiple, divide).",
+    "descriptionForHuman": "Used to perform math operations.",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "{url}/swagger.json"
+    },
+    "logoUrl": "{url}/logo.png",
+    "contactEmail": "support@example.com",
+    "legalInfoUrl": "http://www.example.com/legal"
+  }
+}

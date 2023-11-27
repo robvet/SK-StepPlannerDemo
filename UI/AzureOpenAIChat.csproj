@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>d217ca1e-a5ca-498a-800b-dab25e0ca9ed</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="config\appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="config\appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.7" />
+    <PackageReference Include="Markdig" Version="0.31.0" />
+	  <PackageReference Include="Microsoft.Azure.Management.Fluent" Version="1.38.1" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0-preview.7.23375.6" />
+	  <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0-preview.7.23375.6" />
+	  <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0-preview.7.23375.6" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <PackageReference Include="Microsoft.SemanticKernel" Version="0.23.230906.2-preview" />
+	  <PackageReference Include="Microsoft.SemanticKernel.Skills.OpenAPI" Version="0.23.230906.2-preview" />
+	  <PackageReference Include="Microsoft.SemanticKernel.Planning.StepwisePlanner" Version="0.23.230906.2-preview" />	  
+  </ItemGroup>
+
+</Project>
