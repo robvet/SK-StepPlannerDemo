@@ -27,6 +27,7 @@
 
   <PropertyGroup>
     <GetTargetPathDependsOn>$(GetTargetPathDependsOn);GetDependencyTargetPaths</GetTargetPathDependsOn>
+    <UserSecretsId>6f0aa5be-0bd7-438e-a3f7-dd771708e567</UserSecretsId>
   </PropertyGroup>
 
   <Target Name="GetDependencyTargetPaths">

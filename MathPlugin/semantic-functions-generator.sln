@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "semantic-functions-generator", "semantic-functions-generator\semantic-functions-generator.csproj", "{A5C9BD38-CA82-42A4-977F-C88648EE6167}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sk-chatgpt-azure-function", "azure-function\sk-chatgpt-azure-function.csproj", "{0BBB4CD1-5EAF-4DC7-A6D8-575F8550B1D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureOpenAIChat", "..\UI\AzureOpenAIChat.csproj", "{4394F9C3-3620-49EB-B188-E1AA17314A41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5C9BD38-CA82-42A4-977F-C88648EE6167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C9BD38-CA82-42A4-977F-C88648EE6167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C9BD38-CA82-42A4-977F-C88648EE6167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C9BD38-CA82-42A4-977F-C88648EE6167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBB4CD1-5EAF-4DC7-A6D8-575F8550B1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBB4CD1-5EAF-4DC7-A6D8-575F8550B1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBB4CD1-5EAF-4DC7-A6D8-575F8550B1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBB4CD1-5EAF-4DC7-A6D8-575F8550B1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4394F9C3-3620-49EB-B188-E1AA17314A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4394F9C3-3620-49EB-B188-E1AA17314A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4394F9C3-3620-49EB-B188-E1AA17314A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4394F9C3-3620-49EB-B188-E1AA17314A41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0DC84F3-9D99-4048-931D-732627CE1303}
+	EndGlobalSection
+EndGlobal

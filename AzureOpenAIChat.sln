@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureOpenAIChat", "UI\AzureOpenAIChat.csproj", "{F5564782-CD58-4858-9817-1C344D43AA5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "semantic-functions-generator", "MathPlugin\semantic-functions-generator\semantic-functions-generator.csproj", "{A15C8D54-029C-46AD-9D24-C04F4F0968A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sk-chatgpt-azure-function", "MathPlugin\azure-function\sk-chatgpt-azure-function.csproj", "{2EED1834-8F52-4B7D-9C5A-64BA8979FCF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5564782-CD58-4858-9817-1C344D43AA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5564782-CD58-4858-9817-1C344D43AA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5564782-CD58-4858-9817-1C344D43AA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5564782-CD58-4858-9817-1C344D43AA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15C8D54-029C-46AD-9D24-C04F4F0968A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15C8D54-029C-46AD-9D24-C04F4F0968A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15C8D54-029C-46AD-9D24-C04F4F0968A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15C8D54-029C-46AD-9D24-C04F4F0968A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EED1834-8F52-4B7D-9C5A-64BA8979FCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EED1834-8F52-4B7D-9C5A-64BA8979FCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EED1834-8F52-4B7D-9C5A-64BA8979FCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EED1834-8F52-4B7D-9C5A-64BA8979FCF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {940FEFA6-660B-49DA-8791-30374AE3AD3D}
+	EndGlobalSection
+EndGlobal
